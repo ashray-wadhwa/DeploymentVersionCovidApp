@@ -95,8 +95,8 @@ th {
 }
 
 #button{
-  width: 80px;
-  height: 80px;
+  width: auto;
+  height: auto;
   background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
   color: maroon;
@@ -115,8 +115,8 @@ th {
 
 }
 #button:hover {
-  width: 178px;
-  height: 80px;
+  width: 20%;
+  height: 10%;
   transition-timing-function: ease-in-out;
   opacity: 1;
 }
