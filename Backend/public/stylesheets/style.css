@@ -112,6 +112,7 @@ th {
   font-size: larger;
   border-radius: 50%;
   border: 2px solid maroon;
+  font-size: inherit;
 
 }
 #button:hover {
