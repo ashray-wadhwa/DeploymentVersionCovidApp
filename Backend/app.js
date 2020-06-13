@@ -8,7 +8,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var donationsRouter = require('./routes/donate');
-var newsRouter = require('./routes/news');
+
 
 var app = express();
 
@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/donate', donationsRouter);
-app.use('/news', newsRouter);
+
 
 
 //Serve static assets if in production
