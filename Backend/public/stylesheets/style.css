@@ -109,7 +109,6 @@ th {
   transform: translateX(-50%);
   opacity: 0.6;
   text-shadow: 0.65px 0.65px 0.65px black;
-  font-size: larger;
   border-radius: 50%;
   border: 2px solid maroon;
 }
