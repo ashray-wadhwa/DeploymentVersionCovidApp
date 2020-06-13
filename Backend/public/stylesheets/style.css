@@ -95,15 +95,15 @@ th {
 }
 
 #button{
-  width: 20%;
-  height: 15%;
+  width: 18%;
+  height: 13%;
   background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
   color: maroon;
   transition: width 2s, height 4s;
   margin: 0;
   position: absolute;
-  left: 90.5%;
+  left: 85%;
   top: 5%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
