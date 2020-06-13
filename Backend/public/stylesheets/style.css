@@ -112,14 +112,16 @@ th {
   font-size: larger;
   border-radius: 50%;
   border: 2px solid maroon;
-  font-size: inherit;
-
 }
 #button:hover {
   /* width: 26%;
   height: auto;
   transition-timing-function: ease-in-out; */
-  opacity: 1;
+  opacity: 1
+}
+
+#button.truncate {
+  width: fit-content;
 }
 
 .coronaImage{
