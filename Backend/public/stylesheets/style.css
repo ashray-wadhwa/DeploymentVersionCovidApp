@@ -111,6 +111,7 @@ th {
   text-shadow: 0.65px 0.65px 0.65px black;
   border-radius: 50%;
   border: 2px solid maroon;
+  font-size: inherit;
 }
 #button:hover {
   /* width: 26%;
