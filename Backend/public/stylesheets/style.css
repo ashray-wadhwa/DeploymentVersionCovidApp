@@ -1,0 +1,142 @@
+
+*{
+  scroll-behavior: smooth;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background:
+radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+background-color: slategray;
+background-size:75px 100px; */
+background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
+border: 6px solid black;
+  opacity: 0.9;
+}
+
+h3{
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+a {
+  color: darkblue;
+  text-shadow: 1px 1px 1px black;
+}
+
+.TitleTag{
+  color: rgb(74, 92, 42);
+  text-align: left;
+  text-shadow: 1px 1px 1px black;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.HeaderTag{
+  color: maroon;
+  text-align: center;
+  text-shadow: 2.5px 2.5px 2.5px #2e2e2e;
+}
+
+.UrlTag{
+  color: blue;
+}
+
+.ImageTag {
+  max-width:35%;
+  height:auto;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  border-radius: 10%;
+  object-fit: contain;
+}
+
+.LineTag{
+  box-shadow: 3px 3px 3px black;
+}
+
+.DescriptionTag{
+  color: rgb(42, 65, 65);
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+}
+table{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-shadow: 0.65px 0.65px 0.65px black;
+  color: rgb(42, 65, 65);
+}
+.covidTable{
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
+}
+
+th,td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+th {
+  background-image: linear-gradient(to right, rgb(181, 181, 181), rgb(68, 102, 113));
+  /* color: white; */
+  font-weight: bold;
+}
+
+#button{
+  width: 80px;
+  height: 80px;
+  background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: maroon;
+  transition: width 2s, height 4s;
+  margin: 0;
+  position: absolute;
+  left: 90.5%;
+  top: 5%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0.6;
+  text-shadow: 0.65px 0.65px 0.65px black;
+  font-size: larger;
+  border-radius: 50%;
+  border: 2px solid maroon;
+
+}
+#button:hover {
+  width: 178px;
+  height: 80px;
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+.coronaImage{
+  max-width:18%;
+  height:auto;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 25px 0 rgba(0, 0, 0, 0.19); */
+  margin: 0 auto;
+  object-fit: contain;
+    /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19); */
+  background-image : none;
+}
+
+.DescriptionLink{
+  color: rgb(42, 65, 65);
+  text-align: center ;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1.HeaderTag ORGANIZATIONS ALONG WITH DONATION LINKS
+    div
+      each item in News
+        h2.TitleTag TITLE: #{item.title}
+        div
+          #[img.ImageTag(src= "#{item.urlToImage}", alt="Image not found")] #[h3.DescriptionTag BRIEF DESCRIPTION: #{item.description}]
+        h3
+          | Read the full description 
+          a(href="#{item.url}") HERE
+        hr.LineTag

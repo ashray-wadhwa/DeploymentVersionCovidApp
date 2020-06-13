@@ -1,0 +1,58 @@
+extends layout
+
+block content
+    <form  action="http://localhost:3000/">
+    <input id = "button" type="submit" value="Go Back to Donations" />
+    </form>
+    img.coronaImage(src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1193px-SARS-CoV-2_without_background.png", alt="Image Not Found")
+    h1.HeaderTag COVID-19: CASES, DEATHS, AND RECOVERIES 
+    hr.LineTag
+    <br/>
+    table.covidTable
+      thead
+        tr 
+          th Countries 
+          th Total Cases
+          th Deaths
+          th Recoveries
+        tbody
+          each country in Countries
+            tr
+              td #{country.country}
+              if (country.cases != "0")
+                td #{country.cases}
+              else
+                td N/A
+              if (country.deaths != "0")
+                td #{country.deaths}
+              else
+                td N/A
+              if (country.recovered != "0")
+                td #{country.recovered}
+              else
+                td N/A
+        
+        
+    div
+      <br/>
+      h1.HeaderTag TOP NEWS HEADLINES RELATED TO THE COVID-19 PANDEMIC
+      hr.LineTag
+      each item in News
+        <br/>
+        h2.TitleTag #{item.title}
+        <br/>
+        div.imageDescBlock
+          img.ImageTag(src= "#{item.urlToImage}", alt="Image not found") 
+          <br/>
+          h3.DescriptionTag BRIEF DESCRIPTION: #{item.description}
+        div
+        div.DescriptionLink
+          h3
+          | Read the Full Article 
+          a(href="#{item.url}") HERE
+        <br/>
+        hr.LineTag
+    div
+      
+    div
+
