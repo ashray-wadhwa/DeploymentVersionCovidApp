@@ -122,6 +122,7 @@ th {
 
 #button.truncate {
   width: fit-content;
+  height: fit-content;
 }
 
 .coronaImage{
