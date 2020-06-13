@@ -95,7 +95,7 @@ th {
 }
 
 #button{
-  width: auto;
+  width: 20%;
   height: auto;
   background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -115,8 +115,8 @@ th {
 
 }
 #button:hover {
-  width: 20%;
-  height: 10%;
+  width: 26%;
+  height: auto;
   transition-timing-function: ease-in-out;
   opacity: 1;
 }
