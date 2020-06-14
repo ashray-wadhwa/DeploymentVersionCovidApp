@@ -1,6 +1,7 @@
 
 *{
   scroll-behavior: smooth;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 body {
   padding: 50px;
@@ -27,7 +28,7 @@ a {
 .TitleTag{
   color: rgb(74, 92, 42);
   text-align: left;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0.5px 0.5px 0.5px black;
   margin: 0 auto;
   width: 60%;
 }
@@ -35,7 +36,7 @@ a {
 .HeaderTag{
   color: maroon;
   text-align: center;
-  text-shadow: 2.5px 2.5px 2.5px #2e2e2e;
+  text-shadow: 0.7px 0.7px 0.7px #2e2e2e;
 }
 
 .UrlTag{
@@ -70,7 +71,7 @@ table{
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid darkslategray;
   text-align: center;
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
   text-shadow: 0.65px 0.65px 0.65px black;
@@ -95,23 +96,21 @@ th {
 }
 
 #button{
-  width: 15%;
-  height: 11%;
-  background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
-  font: "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: maroon;
-  transition: width 2s, height 4s;
-  margin: 0;
-  position: absolute;
-  left: 85%;
-  top: 5%;
-  -ms-transform: translateX(-50%);
+  background-image: linear-gradient(to right, lightgrey, rgb(158, 170, 174));
+    color: black;
+    margin: 0 auto;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  opacity: 0.6;
-  text-shadow: 0.65px 0.65px 0.65px black;
-  border: 2px solid maroon;
-  font-size: inherit;
+    opacity: 0.85;
+    text-shadow: 0.25px 0.25px 0.25px black;
+  padding: 2px 8px;
+  border: 2px solid darkgrey;
   object-fit: contain;
+  font-size: large;
+  border-radius: 25%;
 }
 #button:hover {
   /* width: 26%;
