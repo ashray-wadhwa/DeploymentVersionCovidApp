@@ -96,13 +96,13 @@ th {
 
 #button{
   background-image: linear-gradient(to right, lightgrey, rgb(158, 170, 174));
-    color: black;
+    color: rgb(42, 65, 65);
     margin: 0 auto;
     position: absolute;
     left: 80%;
     top: 4%;
     -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-60%);
     opacity: 0.85;
     text-shadow: 0.25px 0.25px 0.25px black;
   padding: 2px 8px;
@@ -110,6 +110,7 @@ th {
   object-fit: contain;
   font-size: large;
   border-radius: 25%;
+  font-weight: 600;
 }
 #button:hover {
   /* width: 26%;
