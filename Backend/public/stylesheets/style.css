@@ -12,7 +12,6 @@ radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 5%, rgba
 background-color: slategray;
 background-size:75px 100px; */
 background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
-border: 6px solid black;
   opacity: 0.9;
 }
 
@@ -74,7 +73,7 @@ table, th, td {
   border: 1px solid darkslategray;
   text-align: center;
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-shadow: 0.65px 0.65px 0.65px black;
+  text-shadow: 0.25px 0.25px 0.25px black;
   color: rgb(42, 65, 65);
 }
 .covidTable{
