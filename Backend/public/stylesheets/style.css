@@ -21,7 +21,6 @@ h3{
 
 a {
   color: darkblue;
-  text-shadow: 1px 1px 1px black;
 }
 
 .TitleTag{
@@ -35,7 +34,7 @@ a {
 .HeaderTag{
   color: maroon;
   text-align: center;
-  text-shadow: 0.7px 0.7px 0.7px #2e2e2e;
+  text-shadow: 0.3px 0.3px 0.3px #2e2e2e;
 }
 
 .UrlTag{
@@ -141,6 +140,6 @@ th {
   color: rgb(42, 65, 65);
   text-align: center ;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0.3px 0.3px 0.3px black;
   font-style: italic;
 }
