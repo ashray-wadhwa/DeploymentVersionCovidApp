@@ -17,7 +17,6 @@ background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
 
 h3{
   text-shadow: 0.5px 0.5px 0.5px black;
-  font-style: italic;
 }
 
 a {
@@ -143,4 +142,5 @@ th {
   text-align: center ;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 1px black;
+  font-style: italic;
 }
