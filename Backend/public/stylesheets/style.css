@@ -16,7 +16,7 @@ background: #d3d3d3;
 }
 
 h3{
-  text-shadow: 0.5px 0.5px 0.5px black;
+  text-shadow: 0.2px 0.2px 0.2px black;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 .TitleTag{
   color: rgb(74, 92, 42);
   text-align: left;
-  text-shadow: 0.5px 0.5px 0.5px black;
+  text-shadow: 0.3px 0.3px 0.3px black;
   margin: 0 auto;
   width: 60%;
 }
@@ -80,7 +80,7 @@ table, th, td {
   margin: 0 auto;
   width: 80%;
   border-collapse: collapse;
-  background-image: linear-gradient(to right, lightgrey, rgb(87, 129, 143));
+  background: #d3d3d3;
 }
 
 th,td{
@@ -89,7 +89,7 @@ th,td{
 }
 
 th {
-  background-image: linear-gradient(to right, rgb(181, 181, 181), rgb(68, 102, 113));
+  background-image: linear-gradient(90deg,#b5b5b5,#949c9e);
   /* color: white; */
   font-weight: bold;
 }
