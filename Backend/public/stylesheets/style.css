@@ -24,11 +24,11 @@ a {
 }
 
 .TitleTag{
-  color: rgb(74, 92, 42);
   text-align: left;
   text-shadow: 0.3px 0.3px 0.3px black;
   margin: 0 auto;
   width: 60%;
+  color: rgb(82, 109, 109);
 }
 
 .HeaderTag{
