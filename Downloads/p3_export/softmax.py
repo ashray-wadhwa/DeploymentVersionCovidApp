@@ -98,6 +98,20 @@ class SoftmaxRegression:
             sumExp = sumExp + np.exp(columnEntry) 
         probabilities = np.exp(W_X)/sumExp
 
+        # print(np.sum(probabilities, axis=0))
+
+        # print("W...")
+        # print(len(W))
+        # print(len(W[0]))
+
+        # print("X...")
+        # print(len(X))
+        # print(len(X[0]))
+
+        # print("W_X...")
+        # print(len(W_X))
+        # print(len(W_X[0]))
+
         # cost of single example is -1 times log probability of the true class
         # initialize cost to AVERAGE cost over all examples
         cost = (np.sum(-1*indicator*np.log(probabilities), axis=None))/N
